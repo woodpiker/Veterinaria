@@ -1,0 +1,63 @@
+/* Para que no hayan márgenes */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto{
+    width: 50%;
+    height: 40px;
+    background: url(img6.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+/* El tipo de letra */
+body{
+    font-family: 'open sans';
+}
+
+
+/* Textos del encabezado */
+header .textos-header{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 55px;
+    color: rgb(83, 83, 206);
+}
+.textos-header h2{
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(83, 83, 206);
+}
+
+/* Parte formulario */
+.titulo{
+    color: rgb(83, 83, 206);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenido-textos h3{
+    color: rgb(179, 255, 0);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contenido-textos p{
+    color: rgb(179, 255, 0);
+    margin-bottom: 10px;
+    font-size: 15px;
+}

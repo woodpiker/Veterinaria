@@ -1,0 +1,65 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: linear-gradient(rgba(185, 185, 185, 0.5), rgba(230, 230, 230, 0.5)),
+    url("archivos/fondo2.jpg") no-repeat center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Input Forms*/
+input[type="text"],
+input[type="password"] {
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 80%;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #fa0000;
+  width: 70%;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+div{
+  min-width: 300px;
+  width: 30%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  /*margin-bottom: 160px;*/
+  display: block;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid rgb(238, 238, 238);
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(255, 0, 13, 0.822);
+  text-shadow: 1px 1px 2px rgb(209, 2, 2), 0 0 25px rgb(150, 248, 255), 0 0 5px rgb(0, 255, 255);
+  background-color: rgba(102, 128, 212, 0.69);
+}

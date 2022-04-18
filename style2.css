@@ -1,0 +1,139 @@
+* {
+  font-family: "Segoe UI", Roboto;
+}
+
+body {
+  background: linear-gradient(rgba(0, 92, 12, 0.5), rgba(147, 255, 162, 0.5)),
+    url("archivos/img6.webp") no-repeat center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+form {
+  width: 30%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 160px;
+  display: block;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="file"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(97, 207, 93, 0.5);
+  padding: 1px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(229, 255, 0);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), 0 0 25px rgb(136, 255, 0),
+    0 0 5px rgb(229, 255, 0);
+}
+
+footer {
+  background-color: rgba(97, 207, 93, 0.5);
+  font-size: 20px;
+  /*padding: 10px;*/
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgb(255, 255, 255), 0 0 25px rgb(100, 107, 91),
+    0 0 5px rgb(151, 151, 151);
+  padding: 20px;
+  margin-top: auto;
+}
+
+#t1 {
+  text-align: center;
+  margin: auto;
+}
+
+#head {
+  font-weight: bold;
+  text-align: center;
+}
+
+#img {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  /*float: right;*/
+  border-radius: 50%;
+  opacity: 0.5;
+}
+#img:hover {
+  opacity: 1;
+}
+
+#table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: 25px 500px;
+  /*margin-bottom: 30px;*/
+}
+
+#td {
+  text-align: left;
+  padding: 8px;
+}
+
+#tr {
+  background-color: rgba(0, 133, 18, 0.5);
+}
+
+#tr:nth-child(even) {
+  background-color: rgba(91, 253, 113, 0.5);
+}

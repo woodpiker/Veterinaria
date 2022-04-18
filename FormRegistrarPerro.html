@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="foto">
+    
+    <header>
+        <section class="textos-header">
+        <h1>Registro Local Canino</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Sistema de Identificación Perruno</h2>
+            <div class="contenedor-sobre-nosotros">
+                <div class="contenido-textos">
+                    <form action="Registrar_perro.php" method="GET">
+                        <h3>Ingresar Código</h3> 
+                        <p><Input name = "Codigo" Type Text></p>
+                        <h3>Ingresar Nombre</h3> 
+                        <p><Input name = "Nombre" Type Text></p>
+                        <h3>Fecha de Nacimiento</h3> 
+                        <p><Input name= "FechNac" Type = "Date"></p>
+                        <h3> Genero</h3> 
+                        <p>
+                            <Input name="Genero" Type = "Radio" Value=1> Macho
+                            <Input name= "Genero" Type = "Radio" Value=0> Hembra 
+                        </p>
+                        <h3>Seleccione Raza</h3> 
+                        <p>
+                            <Select name = "Raza">
+                                
+                                <Option value = "Pitbull"> Pitbull
+                                <Option value = "Bulldog"> Bulldog
+                                <Option value = "Shichu"> Shichu
+                                <Option value = "Pequines"> Pequines
+                                <Option value = "San Bernardo"> San Bernardo
+                                <Option value = "Chiguahua"> Chiguahua
+                            </Select>
+                        </p>
+                        
+                        <h3>Subir Foto</h3> 
+                        <p>
+                            <Input Type = "file" name = "Foto">
+                        </p>
+                        <p>
+                            <Input Type = Submit value = "Cancelar">
+                            <Input name= "Registrar" Type = Submit value = "Registrar">
+                        </p>
+                    </form>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
+
